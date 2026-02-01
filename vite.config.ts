@@ -9,7 +9,8 @@ export default defineConfig({
   },
   preview: {
     host: '0.0.0.0',
-    port: parseInt(process.env.PORT || '8080'),
+    // 优先使用环境变量 PORT，Zeabur 会注入此变量
+    port: Number(process.env.PORT) || 8080,
     strictPort: true,
   }
 });
