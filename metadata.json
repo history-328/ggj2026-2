@@ -1,0 +1,5 @@
+{
+  "name": "Copy of sequence-mask-game v1.0备份",
+  "description": "一款结合了逻辑解谜与Roguelike博弈的策略游戏。利用有限的牌库构建递增的序列，通过盲注赚取筹码，在虚空商店中购买道具，挑战更高的层级。",
+  "requestFramePermissions": []
+}
