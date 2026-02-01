@@ -479,10 +479,10 @@ export default function App() {
       {phase === GamePhase.MENU && (
         <div className="h-screen flex flex-col items-center justify-center p-8 text-center space-y-8 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-900 to-black">
           <div className="space-y-4 animate-in slide-in-from-bottom-10 duration-700">
-            <h1 className="text-6xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-purple-400 to-indigo-900 filter drop-shadow-[0_0_15px_rgba(168,85,247,0.5)] font-serif">
-              序列遮断
+            <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-purple-400 to-indigo-900 filter drop-shadow-[0_0_15px_rgba(168,85,247,0.5)] font-serif tracking-tight">
+              隐藏序列
             </h1>
-            <p className="text-2xl text-slate-500 font-serif tracking-widest">MASK THE SEQUENCE</p>
+            <p className="text-xl text-slate-500 font-serif tracking-widest mt-2">MASK THE SEQUENCE</p>
           </div>
           
           <div className="p-6 bg-slate-900/50 rounded-xl border border-slate-800 max-w-md text-sm text-slate-400 leading-relaxed">
