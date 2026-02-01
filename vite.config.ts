@@ -8,7 +8,7 @@ export default defineConfig({
   },
   preview: {
     host: true,
-    port: parseInt(process.env.PORT || '3000'),
+    port: parseInt(process.env.PORT || '8080'),
     strictPort: true,
   }
 });
